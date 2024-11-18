@@ -69,6 +69,7 @@ class Autor {
       .where({ autor_id: autorId });
   }
   
+
 }
 
 export default Autor;
