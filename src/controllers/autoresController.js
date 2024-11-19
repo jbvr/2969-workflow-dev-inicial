@@ -53,6 +53,7 @@ class AutoresController {
       return res.status(500).json(err.message);
     }
   };
+  
 
   static atualizarAutor = async (req, res) => {
     const { params } = req;
